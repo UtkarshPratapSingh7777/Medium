@@ -26,18 +26,18 @@ This project is a Medium-inspired blogging web application where users can regis
 
 4. Tech Stack
 
-Frontend: React / Next.js + TailwindCSS (or whatever you’re using)
+Frontend: React  + TailwindCSS 
 
-Backend: Node.js + Express / FastAPI (adjust as per your stack)
+Backend: Hono + Cloudflare(Serverless Backend)
 
-Database: MongoDB / PostgreSQL
+Database: PostgreSQL + Prisma ORM
 
-Authentication: JWT / OAuth
+Authentication: JWT
 
 5. How to Run Locally
 # Clone the repo
-git clone https://github.com/username/repo-name.git
-cd repo-name
+git clone https://github.com/UtkarshPratapSingh7777/Medium/
+cd Medium
 
 # Install dependencies
 npm install
