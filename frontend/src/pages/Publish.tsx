@@ -1,9 +1,9 @@
 import { Appbar } from "../components/Appbar"
 import { useNavigate } from "react-router-dom"
-import { useState, type ChangeEvent, type ChangeEventHandler } from "react";
+import { useState, type ChangeEvent } from "react";
 import { BackendUrl } from "../config";
 import axios from "axios";
-import type { Blog } from "../hooks";
+// import type { Blog } from "../hooks";
 import { Buttoncomponent } from "../components/Appbar";
 export const Publish = () => {
     const navigate = useNavigate();

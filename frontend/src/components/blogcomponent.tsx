@@ -3,7 +3,7 @@ import { Appbar } from "./Appbar"
 import { Avatar } from "./BlogCard"
 import { Link } from "react-router-dom"
 import { useNavigate } from "react-router-dom"
-import { BackendUrl } from "../config"
+// import { BackendUrl } from "../config"
 export const BlogComponent = ({ blog }: { blog: Blog }) => {
     const navigate=useNavigate();
     return <div className="flex flex-col h-lvh">

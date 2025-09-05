@@ -1,5 +1,5 @@
 import { useBlogId } from "../hooks" 
-import { Skeleton } from "./Blogs";
+// import { Skeleton } from "./Blogs";
 import { useParams } from "react-router-dom";
 import { LoadingSkeleton } from "./Blogs";
 import { BlogComponent } from "../components/blogcomponent";
@@ -19,6 +19,7 @@ export const FullBlog =()  =>{
     }
 
     return <div>
-        <BlogComponent blog={blog}/>
+        {blog ? <BlogComponent blog={blog} /> : <p>Blog not found</p>}
+
     </div>
 }
